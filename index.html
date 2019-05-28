@@ -13,33 +13,37 @@
         width: 100%;
         max-width: 600px;
       }
+      @media only screen and (min-devise-width: 601px) {
+        .content {
+          width: 600px;
+        }
+      }
     </style>
   </head>
   <body yahoo bgcolor="#f6f8f1">
+    <!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td>
+            <![endif]-->
     <table
-      width="100%"
-      bgcolor="#f6f8f1"
-      border="0"
+      class="content"
+      align="center"
       cellpadding="0"
       cellspacing="0"
+      border="0"
     >
       <tr>
         <td>
-          <table
-            class="content"
-            align="center"
-            cellpadding="0"
-            cellspacing="0"
-            border="0"
-          >
-            <tr>
-              <td>
-                Hello!
-              </td>
-            </tr>
-          </table>
+          Hello!
         </td>
       </tr>
     </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+        </td>
+    </tr>
+</table>
+<![endif]-->
   </body>
 </html>
